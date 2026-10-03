@@ -8,13 +8,13 @@ using namespace std;
 // C++ does not enforces this. Hence no compilation error.
 
 /*
-├── std::logic_error        <-- For logical errors detected before runtime
+├── std::logic_error            <-- For logical errors detected before runtime
 │   ├── std::invalid_argument   <-- Invalid function argument
 │   ├── std::domain_error       <-- Function argument domain error
 │   ├── std::length_error       <-- Exceeding valid length limits
 │   ├── std::out_of_range       <-- Array or container index out of bounds
 │
-├── std::runtime_error      <-- For errors that occur at runtime
+├── std::runtime_error          <-- For errors that occur at runtime
 │   ├── std::range_error        <-- Numeric result out of range
 │   ├── std::overflow_error     <-- Arithmetic overflow
 │   ├── std::underflow_error
